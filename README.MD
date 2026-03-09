@@ -63,7 +63,7 @@ ORDER BY salary_year_avg DESC
 LIMIT 10
 ```
 
-![Top 10 Highest-Paying Data Analyst Jobs](assets\chart1_top_paying_jobs.png)
+![Top 10 Highest-Paying Data Analyst Jobs](assets/chart1_top_paying_jobs.png)
 
 **Key Finding:** The salary range among top-paying roles is extraordinarily wide. A single outlier — a Data Analyst posting at Mantys — reached $650,000 per year, nearly double the next highest role (Meta's Director of Analytics at $336,500). Excluding this outlier, salaries at the upper end of the market cluster between $184,000 and $256,000, suggesting a healthy premium for senior and director-level analyst roles at technology, telecommunications, and financial services companies.
 
@@ -99,7 +99,7 @@ INNER JOIN skills_dim AS skills ON skills.skill_id = skill_to_job.skill_id
 ORDER BY salary_year_avg DESC
 ```
 
-![Skills Required Across Top-Paying Data Analyst Roles](assets\chart2_skills_top_jobs.png)
+![Skills Required Across Top-Paying Data Analyst Roles](assets/chart2_skills_top_jobs.png)
 
 **Key Finding:** SQL and Python appear in virtually every high-paying role, confirming their status as foundational, non-negotiable skills. Tableau is also nearly universal. Beyond the core stack, cloud technologies — particularly AWS and Azure — and collaboration tools such as Jira, Confluence, and Atlassian appear frequently in director-level and principal-level roles, suggesting that senior analysts are expected to operate across both technical and organisational domains.
 
@@ -126,7 +126,8 @@ ORDER BY
 LIMIT 10
 ```
 
-![Top 10 Most In-Demand Skills for Data Analysts](assets\chart3_most_demanded_skills.png)
+![Top 10 Most In-Demand Skills for Data Analysts](assets/chart3_most_demanded_skills.png)
+
 | Skill      | Demand Count |
 |------------|-------------:|
 | SQL        | 7,291        |
@@ -166,7 +167,8 @@ ORDER BY
 LIMIT 20
 ```
 
-![Top 20 Skills by Average Salary](assets\chart4_skills_by_salary.png)
+![Top 20 Skills by Average Salary](assets/chart4_skills_by_salary.png)
+
 | Skill         | Average Salary ($) |
 |---------------|-------------------:|
 | PySpark       | 208,172            |
@@ -221,7 +223,8 @@ ORDER BY
 LIMIT 20
 ```
 
-![Most Optimal Skills: Demand vs. Salary](assets\chart5_optimal_skills.png)
+![Most Optimal Skills: Demand vs. Salary](assets/chart5_optimal_skills.png)
+
 | Skill ID | Skills     | Demand Count | Average Salary ($) |
 |----------|------------|:------------:|-------------------:|
 | 8        | go         | 27           | 115,320            |
